@@ -1,0 +1,3 @@
+El archo xml ocupa 1.41KB mientras que el json 1.17KB, por lo que el porcentaje ahorrado es del 17% aproximadamente.
+
+ 4. The Id attribute does not belong to a namespace
