@@ -3,7 +3,7 @@
 <quiz>
     <html lang="html">
         <q1>
-            <question >HTML document must always be saved with which of the following?<options>
+            <question>HTML document must always be saved with which of the following?</question>
             <options>
                 <option  id="1">.Html</option>
                 <option  id="2">.doc</option>
@@ -12,8 +12,8 @@
             </options>
             <answer>both .html and .htm</answer>
         </q1>
+        
     </html>
-
     <css lang="1">
         <q1>
             <question>"Which of the following CSS property is used to set the backgroun image of an element?</question>
@@ -26,7 +26,7 @@
             <answer>background-image</answer>
         </q1>
         <q2 num="2">
-            <question>How to select the elements with the class name example?<question>
+            <question>How to select the elements with the class name example?</question>
             <options>
                 <option  id="1">example</option>
                 <option  id="2">#example</option>

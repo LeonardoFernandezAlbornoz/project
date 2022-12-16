@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <programs producer="Microsoft">
-	<program licence="MPU"/>Firefox</program>
+	<program licence="MPU">Firefox</program>
 	<program>LibreOffice</program>
 	<program licence="GPL">Inkscape</program>
 	<program>Chrome</program>
 	<program>Edge</program>
 </programs>
+
+<!-- Había un atributo repetido, etiquetas en las que el tag de apertura y el de cierre eran distintos (Mayúsculas y palabras distintas) y además
+el  atributo name corrrespondía al contenido interior  -->
 
 			

@@ -1,0 +1,172 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body > header {
+  background-color: black;
+  height: 8em;
+  margin: 0;
+  border-bottom-style: solid;
+  border-color: darkviolet;
+  border-width: 10px;
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
+}
+
+body > footer {
+  background-color: black;
+  height: 3em;
+  border-top-style: solid;
+  border-color: darkviolet;
+  border-width: 10px;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: darkviolet;
+}
+
+a > h1 {
+  font-family: "Courier New";
+  font-size: 3em;
+  text-align: center;
+  color: darkviolet;
+}
+
+a:first-of-type {
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+img {
+  height: 260px;
+  width: 350px;
+}
+.html h2,
+.html p {
+  font-family: Rubik;
+  color: #56c0db;
+}
+
+.css h2,
+.css p {
+  font-family: Rubik;
+  color: #db9555;
+}
+
+.xml h2,
+.xml p {
+  font-family: Rubik;
+  color: #a0db4b;
+}
+
+a > h1:hover {
+  color: white;
+}
+
+section h2:hover {
+  color: white;
+}
+footer span:first-of-type {
+  font-weight: bold;
+  word-spacing: 0.1em;
+}
+header > p {
+  margin: 1em;
+}
+
+footer {
+  height: 3em;
+  overflow: hidden;
+}
+
+section {
+  width: 350px;
+  height: 450px;
+  margin: 0.5em;
+  border-style: groove;
+  border-color: black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+section > header {
+  height: 8em;
+}
+
+section > footer {
+  height: 3em;
+}
+.html > header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom-style: solid;
+  border-color: #56c0db;
+  border-width: 10px;
+  background-color: black;
+}
+
+.css > header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom-style: solid;
+  border-color: #db9555;
+  border-width: 10px;
+  background-color: black;
+}
+
+.xml > header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom-style: solid;
+  border-color: #a0db4b;
+  border-width: 10px;
+  background-color: black;
+}
+
+.html > footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-style: solid;
+  border-color: #56c0db;
+  border-width: 10px;
+  background-color: black;
+}
+
+.css > footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-style: solid;
+  border-color: #db9555;
+  border-width: 10px;
+  background-color: black;
+}
+
+.xml > footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-style: solid;
+  border-color: #a0db4b;
+  border-width: 10px;
+  background-color: black;
+}
